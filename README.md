@@ -19,8 +19,8 @@ It takes a number of URLs in a text file `long_urls.txt` separated by newlines. 
 pip install tqdm
 ```
 
-### Usage
+### Usage :tada:
 
 ```bash
-./shorten.py long_urls.txt
+./shorten.py
 ```
