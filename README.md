@@ -5,8 +5,7 @@ This python script uses [tinyurl.com](https://tinyurl.com/) to shorten URLs. It 
 ### Prerequisites
 
 > [!IMPORTANT]
-> Note that [python 3](https://www.python.org/downloads/) is required to run this script.
-> `tqdm` is also required to display progress bar. We can install it using pip like below.
+> It is assumed that you have `python3` installed on your system. `tqdm` is also required to display progress bar on the terminal. You can install it using the following command:
 
 ```bash
 pip install tqdm
@@ -15,5 +14,5 @@ pip install tqdm
 ### Usage
 
 ```bash
-shorten.py long_urls.txt
+./shorten.py long_urls.txt
 ```

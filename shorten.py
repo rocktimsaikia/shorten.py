@@ -21,7 +21,7 @@ def make_tiny(url):
 
 def process_urls():
     """Reads URLs from a file, shortens them, and writes the results to a CSV file."""
-    with open("urls.txt", "r", encoding="latin1") as file:
+    with open("long_urls.txt", "r", encoding="latin1") as file:
         urls = [line.strip().replace("\t", "") for line in file]
 
     with open("tiny_urls.csv", "w", newline="", encoding="utf-8") as file:
