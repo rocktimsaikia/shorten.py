@@ -26,7 +26,7 @@ def process_urls():
 
     with open("short_urls.csv", "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
-        writer.writerow(["Long URL", "Tiny URL"])  # Writing header
+        writer.writerow(["Long URL", "Short URL"])
         for url in urls:
             print(url)
             tiny = "NA" if len(url) <= 3 else make_tiny(url)
