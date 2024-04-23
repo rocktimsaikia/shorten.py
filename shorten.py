@@ -24,7 +24,7 @@ def process_urls():
     with open("long_urls.txt", "r", encoding="latin1") as file:
         urls = [line.strip().replace("\t", "") for line in file]
 
-    with open("tiny_urls.csv", "w", newline="", encoding="utf-8") as file:
+    with open("short_urls.csv", "w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Long URL", "Tiny URL"])  # Writing header
         for url in urls:
