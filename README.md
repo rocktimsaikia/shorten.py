@@ -1,6 +1,6 @@
 ## `shorten.py`
 
-This python script uses [tinyurl.com](https://tinyurl.com/) to shorten URLs.
+This python script uses [tinyurl.com](https://tinyurl.com/) to shorten URLs in bulk.
 
 It takes a number of URLs in a text file `long_urls.txt` separated by newlines. It then shortens each URL synchronously and writes to a new csv file `short_urls.csv` with the original URL and the shortened URL mapped to the corresponding columns:
 
